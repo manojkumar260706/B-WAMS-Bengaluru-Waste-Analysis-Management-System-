@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏙️ B-WAMS — Bengaluru Waste Analytics & Management System
+#  B-WAMS — Bengaluru Waste Analytics & Management System
 
 **An AI-powered civic platform for smarter waste management in Bengaluru.**
 
