@@ -292,7 +292,7 @@ export default function WorkerDashboard() {
         <>
             <Navbar customMenuItems={!isConfiguring ? menuItems : []} />
             <div className="container">
-                <div className="dashboard-header" style={{ flexDirection: 'column', alignItems: 'flex-start', gap: '15px' }}>
+                <div className="dashboard-header page-enter" style={{ flexDirection: 'column', alignItems: 'flex-start', gap: '15px' }}>
                     <div style={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                         <div>
                             <h2>Worker Portal</h2>
@@ -301,7 +301,7 @@ export default function WorkerDashboard() {
                         {/* Configuration is now Modal-like or inline */}
                     </div>
                     {isConfiguring && (
-                        <div style={{ width: '100%', padding: '20px', background: '#f8fafc', borderRadius: '8px', border: '1px solid #e2e8f0' }}>
+                        <div className="config-panel-enter" style={{ width: '100%', padding: '20px', background: '#f8fafc', borderRadius: '8px', border: '1px solid #e2e8f0' }}>
                             <h3 style={{ marginTop: 0 }}>Configure Route</h3>
                             <p style={{ fontSize: '0.9rem', color: '#64748b' }}>Select your Start and End Headquarters.</p>
 
@@ -347,7 +347,7 @@ export default function WorkerDashboard() {
                 </div>
 
                 {/* Unified Map Section */}
-                <div className="card map-border" style={{ marginBottom: '30px', padding: '0', overflow: 'hidden' }}>
+                <div className="card map-border page-enter-delay-1" style={{ marginBottom: '30px', padding: '0', overflow: 'hidden' }}>
 
                     <div style={{ height: '500px' }}>
                         <MapContainer center={[12.9716, 77.5946]} zoom={12} style={{ height: '100%', width: '100%' }}>
@@ -417,7 +417,7 @@ export default function WorkerDashboard() {
                 </div>
 
                 {/* Assignments List */}
-                <h3 style={{ marginBottom: '20px' }}>Task List</h3>
+                <h3 className="page-enter-delay-2" style={{ marginBottom: '20px' }}>Task List</h3>
                 {loading ? (
                     <div style={{ textAlign: 'center', padding: '40px', color: '#64748b' }}>Loading assignments...</div>
                 ) : (

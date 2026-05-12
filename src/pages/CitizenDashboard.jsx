@@ -209,7 +209,7 @@ export default function CitizenDashboard() {
             <Navbar />
             <div className="container">
                 {/* Intro Section */}
-                <div style={{ textAlign: 'center', marginBottom: '40px', maxWidth: '700px', margin: '0 auto 40px' }}>
+                <div style={{ textAlign: 'center', marginBottom: '40px', maxWidth: '700px', margin: '0 auto 40px' }} className="page-enter">
                     <h1 style={{ color: 'var(--primary-color)', marginBottom: '10px' }}>Welcome to B-WAMS</h1>
                     <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.6' }}>
                         Join the mission to keep Bengaluru clean. Use this platform to report waste accumulation,
@@ -217,7 +217,7 @@ export default function CitizenDashboard() {
                     </p>
                 </div>
 
-                <div className="card" style={{ maxWidth: '800px', margin: '0 auto' }}>
+                <div className="card page-enter-delay-1" style={{ maxWidth: '800px', margin: '0 auto' }}>
                     <div style={{ marginBottom: '25px', borderBottom: '1px solid #e2e8f0', paddingBottom: '15px' }}>
                         <h2 style={{ margin: 0, fontSize: '1.5rem' }}>File a New Complaint</h2>
                         <p style={{ margin: '5px 0 0', color: '#64748b' }}>Fill in the details below to submit a report</p>

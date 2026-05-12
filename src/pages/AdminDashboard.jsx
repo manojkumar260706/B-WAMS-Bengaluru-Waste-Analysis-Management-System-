@@ -386,7 +386,7 @@ export default function AdminDashboard() {
         <>
             <Navbar customMenuItems={menuItems} />
             <div className="container">
-                <div className="dashboard-header">
+                <div className="dashboard-header page-enter">
                     <div>
                         <h2>Admin Portal</h2>
                         <p>Manage and track waste complaints</p>
@@ -405,7 +405,7 @@ export default function AdminDashboard() {
 
 
                 {/* Map View */}
-                <div className="card map-border" style={{ padding: '0', overflow: 'hidden', marginBottom: '30px', height: '400px', position: 'relative' }}>
+                <div className="card map-border page-enter-delay-1" style={{ padding: '0', overflow: 'hidden', marginBottom: '30px', height: '400px', position: 'relative' }}>
                     {isAddingHQ && (
                         <div style={{
                             position: 'absolute', top: 10, left: '50%', transform: 'translateX(-50%)', zIndex: 1000,
@@ -493,7 +493,7 @@ export default function AdminDashboard() {
                     )}
                 </div>
 
-                <div className="card" style={{ padding: '0', overflow: 'hidden' }}>
+                <div className="card page-enter-delay-2" style={{ padding: '0', overflow: 'hidden' }}>
                     <div style={{ padding: '20px', borderBottom: '1px solid var(--border-color)', display: 'flex', justifyContent: 'space-between', alignItems: 'center', backgroundColor: '#f8fafc' }}>
                         <h3 style={{ margin: 0, fontSize: '1.1rem' }}>Recent Complaints</h3>
                         <button

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { db } from '../firebase';
 import { collection, query, where, getDocs, orderBy } from 'firebase/firestore';
@@ -140,11 +141,11 @@ export default function Navbar({ showUserMenu = true, customMenuItems = [], isLa
         <>
             <nav className="navbar">
                 <div className="navbar-row">
-                    <div className="navbar-brand">
+                    <Link to="/" className="navbar-brand">
                         {/* Logo */}
                         <img src="/logo.png" alt="Logo" className="navbar-logo" />
                         <span>B-WAMS</span>
-                    </div>
+                    </Link>
 
                     {isLanding && (
                         <div className="landing-nav-links" style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
