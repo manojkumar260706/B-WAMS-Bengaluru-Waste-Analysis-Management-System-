@@ -1,14 +1,30 @@
 <div align="center">
 
-#  B-WAMS — Bengaluru Waste Analytics & Management System
+<h1 align="center">
+  ♻️ B-WAMS
+</h1>
 
-**An AI-powered civic platform for smarter waste management in Bengaluru.**
+<h3 align="center">
+  Bengaluru Waste Analytics & Management System
+</h3>
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-b--wams.web.app-0f172a?style=for-the-badge)](https://b-wams.web.app)
-[![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=white)](https://react.dev)
-[![Firebase](https://img.shields.io/badge/Firebase-Auth_|_Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://firebase.google.com)
-[![Node.js](https://img.shields.io/badge/Node.js-Express-339933?style=flat-square&logo=node.js&logoColor=white)](https://nodejs.org)
-[![Vite](https://img.shields.io/badge/Vite-Build-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev)
+<p align="center">
+  AI-powered civic platform for smarter waste management in Bengaluru.
+</p>
+
+<p align="center">
+  <a href="https://b-wams.web.app">
+    <img src="https://img.shields.io/badge/🚀_Launch_B--WAMS-0d1117?style=for-the-badge" />
+  </a>
+</p>
+
+<!-- <p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nodejs,express,firebase,vite" />
+</p> -->
+
+<p align="center">
+  React • Node.js • Express • Firebase • Gemini AI 
+</p>
 
 </div>
 
@@ -18,18 +34,32 @@
 
 ## 📋 Table of Contents
 
-- [About](#-about)
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Prerequisites](#-prerequisites)
-- [Setup & Installation (Windows)](#-setup--installation-windows)
-- [Running the Application](#-running-the-application)
-- [Deployment](#-deployment)
-- [User Roles](#-user-roles)
-- [Screenshots](#-screenshots)
-- [Future Enhancements](#-future-enhancements)
-- [License](#-license)
+- [📋 Table of Contents](#-table-of-contents)
+- [📖 About](#-about)
+- [✨ Features](#-features)
+  - [For Citizens](#for-citizens)
+  - [For Workers](#for-workers)
+  - [For Administrators](#for-administrators)
+  - [AI-Powered Analysis](#ai-powered-analysis)
+- [🛠️ Tech Stack](#️-tech-stack)
+- [📂 Project Structure](#-project-structure)
+- [✅ Prerequisites](#-prerequisites)
+- [🚀 Setup \& Installation (Windows)](#-setup--installation-windows)
+  - [1. Clone the Repository](#1-clone-the-repository)
+  - [2. Install Frontend Dependencies](#2-install-frontend-dependencies)
+  - [3. Install Backend Dependencies](#3-install-backend-dependencies)
+  - [4. Configure Firebase](#4-configure-firebase)
+  - [5. Configure Backend Environment](#5-configure-backend-environment)
+  - [6. Set Up Firestore Security Rules](#6-set-up-firestore-security-rules)
+- [▶️ Running the Application](#️-running-the-application)
+  - [Start the Frontend (Terminal 1)](#start-the-frontend-terminal-1)
+  - [Start the Backend (Terminal 2)](#start-the-backend-terminal-2)
+- [🌐 Deployment](#-deployment)
+  - [Deploy Steps](#deploy-steps)
+- [👤 User Roles](#-user-roles)
+- [📸 Screenshots](#-screenshots)
+- [🔮 Future Enhancements](#-future-enhancements)
+- [📄 License](#-license)
 
 ---
 
